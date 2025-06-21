@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "sleeptime",
+	"version": "${version}",
+	"name": "SleepTime",
+	"description": "Shows you how long until you can sleep, toggle by a key.",
+	"authors": [
+		"MathiasMC"
+	],
+	"contact": {
+		"homepage": "https://github.com/MathiasMC/SleepTime",
+		"sources": "https://github.com/MathiasMC/SleepTime",
+		"issues": "https://github.com/MathiasMC/SleepTime/issues"
+	},
+	"license": "CC-BY-NC-SA-4.0",
+	"icon": "assets/sleeptime/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dk.koefoedcloud.sleeptime.SleepTime"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
