@@ -1,4 +1,4 @@
-package dk.koefoedcloud.sleeptime;
+package com.m4thk.sleeptime;
 
 import net.fabricmc.api.ClientModInitializer;
 
@@ -64,8 +64,8 @@ public class SleepTime implements ClientModInitializer {
 	}
 
 	private void registerKey() {
-        String KEY_CATEGORY = "key.category.dk.koefoedcloud.sleeptime";
-        String KEY_TOGGLE = "key.dk.koefoedcloud.toggle";
+        String KEY_CATEGORY = "key.category.com.m4thk.sleeptime";
+        String KEY_TOGGLE = "key.com.m4thk.sleeptime.toggle";
         toggleKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 KEY_TOGGLE,
 				InputUtil.Type.KEYSYM,

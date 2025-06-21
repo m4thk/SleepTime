@@ -5,19 +5,19 @@
 	"name": "SleepTime",
 	"description": "Shows you how long until you can sleep, toggle by a key.",
 	"authors": [
-		"MathiasMC"
+		"m4thk"
 	],
 	"contact": {
-		"homepage": "https://github.com/MathiasMC/SleepTime",
-		"sources": "https://github.com/MathiasMC/SleepTime",
-		"issues": "https://github.com/MathiasMC/SleepTime/issues"
+		"homepage": "https://github.com/m4thk/SleepTime",
+		"sources": "https://github.com/m4thk/SleepTime",
+		"issues": "https://github.com/m4thk/SleepTime/issues"
 	},
 	"license": "CC-BY-NC-SA-4.0",
 	"icon": "assets/sleeptime/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"client": [
-			"dk.koefoedcloud.sleeptime.SleepTime"
+			"com.m4thk.sleeptime.SleepTime"
 		]
 	},
 	"depends": {
